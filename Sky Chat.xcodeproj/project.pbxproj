@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D6D61882AB1AB660029592B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D61872AB1AB660029592B /* AppDelegate.swift */; };
+		2D6D618A2AB1AB660029592B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D61892AB1AB660029592B /* SceneDelegate.swift */; };
+		2D6D618F2AB1AB660029592B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6D618D2AB1AB660029592B /* Main.storyboard */; };
+		2D6D61912AB1AB670029592B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6D61902AB1AB670029592B /* Assets.xcassets */; };
+		2D6D61942AB1AB670029592B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6D61922AB1AB670029592B /* LaunchScreen.storyboard */; };
+		2D6D619F2AB1ACCC0029592B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D619E2AB1ACCC0029592B /* WelcomeViewController.swift */; };
+		2D6D61A12AB1ACF60029592B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D61A02AB1ACF60029592B /* RegisterViewController.swift */; };
+		2D6D61A32AB1AD170029592B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D61A22AB1AD170029592B /* LoginViewController.swift */; };
+		2D6D61A52AB1AD360029592B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D61A42AB1AD360029592B /* ChatViewController.swift */; };
+		2D6D61A72AB1AF0A0029592B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D61A62AB1AF0A0029592B /* Constants.swift */; };
+		2D6D61AA2AB1AF470029592B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D61A82AB1AF470029592B /* MessageCell.swift */; };
+		2D6D61AB2AB1AF470029592B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D6D61A92AB1AF470029592B /* MessageCell.xib */; };
+		2D6D61AD2AB1AF8D0029592B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D61AC2AB1AF8D0029592B /* Message.swift */; };
+		2D6D61AF2AB1FC1B0029592B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D6D61AE2AB1FC1B0029592B /* GoogleService-Info.plist */; };
+		48D32EEAF659095BC612EF3F /* Pods_Sky_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B0BDFDEF632B71F1FDC6B9 /* Pods_Sky_Chat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26B68908422CE0002BAFFFF7 /* Pods-Sky Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sky Chat.debug.xcconfig"; path = "Target Support Files/Pods-Sky Chat/Pods-Sky Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		2D6D61842AB1AB650029592B /* Sky Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sky Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6D61872AB1AB660029592B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D6D61892AB1AB660029592B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D6D618E2AB1AB660029592B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D6D61902AB1AB670029592B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D6D61932AB1AB670029592B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D6D61952AB1AB670029592B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6D619E2AB1ACCC0029592B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2D6D61A02AB1ACF60029592B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2D6D61A22AB1AD170029592B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2D6D61A42AB1AD360029592B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2D6D61A62AB1AF0A0029592B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2D6D61A82AB1AF470029592B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		2D6D61A92AB1AF470029592B /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		2D6D61AC2AB1AF8D0029592B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		2D6D61AE2AB1FC1B0029592B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52B0BDFDEF632B71F1FDC6B9 /* Pods_Sky_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sky_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9115F8B8A05FF7AFE9D9A274 /* Pods-Sky Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sky Chat.release.xcconfig"; path = "Target Support Files/Pods-Sky Chat/Pods-Sky Chat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D6D61812AB1AB650029592B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D32EEAF659095BC612EF3F /* Pods_Sky_Chat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6D617B2AB1AB650029592B = {
+			isa = PBXGroup;
+			children = (
+				2D6D61862AB1AB660029592B /* Sky Chat */,
+				2D6D61852AB1AB650029592B /* Products */,
+				F3CB2E4A1FAFFAD1CB8EA8FF /* Pods */,
+				7194BDA5B213C285F48CEC6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D6D61852AB1AB650029592B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D6D61842AB1AB650029592B /* Sky Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6D61862AB1AB660029592B /* Sky Chat */ = {
+			isa = PBXGroup;
+			children = (
+				2D6D61872AB1AB660029592B /* AppDelegate.swift */,
+				2D6D61892AB1AB660029592B /* SceneDelegate.swift */,
+				2D6D619B2AB1AB8B0029592B /* Models */,
+				2D6D619D2AB1AB970029592B /* Views */,
+				2D6D619C2AB1AB920029592B /* Controllers */,
+				2D6D61922AB1AB670029592B /* LaunchScreen.storyboard */,
+				2D6D61A62AB1AF0A0029592B /* Constants.swift */,
+				2D6D61952AB1AB670029592B /* Info.plist */,
+				2D6D61AE2AB1FC1B0029592B /* GoogleService-Info.plist */,
+			);
+			path = "Sky Chat";
+			sourceTree = "<group>";
+		};
+		2D6D619B2AB1AB8B0029592B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D6D61AC2AB1AF8D0029592B /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D6D619C2AB1AB920029592B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D6D619E2AB1ACCC0029592B /* WelcomeViewController.swift */,
+				2D6D61A02AB1ACF60029592B /* RegisterViewController.swift */,
+				2D6D61A22AB1AD170029592B /* LoginViewController.swift */,
+				2D6D61A42AB1AD360029592B /* ChatViewController.swift */,
+				2D6D61902AB1AB670029592B /* Assets.xcassets */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2D6D619D2AB1AB970029592B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D6D618D2AB1AB660029592B /* Main.storyboard */,
+				2D6D61A82AB1AF470029592B /* MessageCell.swift */,
+				2D6D61A92AB1AF470029592B /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7194BDA5B213C285F48CEC6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B0BDFDEF632B71F1FDC6B9 /* Pods_Sky_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3CB2E4A1FAFFAD1CB8EA8FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B68908422CE0002BAFFFF7 /* Pods-Sky Chat.debug.xcconfig */,
+				9115F8B8A05FF7AFE9D9A274 /* Pods-Sky Chat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D6D61832AB1AB650029592B /* Sky Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6D61982AB1AB670029592B /* Build configuration list for PBXNativeTarget "Sky Chat" */;
+			buildPhases = (
+				3342D43EB1D7EDFFF92C0FB0 /* [CP] Check Pods Manifest.lock */,
+				2D6D61802AB1AB650029592B /* Sources */,
+				2D6D61812AB1AB650029592B /* Frameworks */,
+				2D6D61822AB1AB650029592B /* Resources */,
+				9AF30EEC9F87FF35AD8A9269 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sky Chat";
+			productName = "Sky Chat";
+			productReference = 2D6D61842AB1AB650029592B /* Sky Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D6D617C2AB1AB650029592B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2D6D61832AB1AB650029592B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2D6D617F2AB1AB650029592B /* Build configuration list for PBXProject "Sky Chat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D6D617B2AB1AB650029592B;
+			productRefGroup = 2D6D61852AB1AB650029592B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D6D61832AB1AB650029592B /* Sky Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D6D61822AB1AB650029592B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6D61942AB1AB670029592B /* LaunchScreen.storyboard in Resources */,
+				2D6D61AB2AB1AF470029592B /* MessageCell.xib in Resources */,
+				2D6D61AF2AB1FC1B0029592B /* GoogleService-Info.plist in Resources */,
+				2D6D61912AB1AB670029592B /* Assets.xcassets in Resources */,
+				2D6D618F2AB1AB660029592B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3342D43EB1D7EDFFF92C0FB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sky Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF30EEC9F87FF35AD8A9269 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sky Chat/Pods-Sky Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sky Chat/Pods-Sky Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sky Chat/Pods-Sky Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D6D61802AB1AB650029592B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6D619F2AB1ACCC0029592B /* WelcomeViewController.swift in Sources */,
+				2D6D61AA2AB1AF470029592B /* MessageCell.swift in Sources */,
+				2D6D61882AB1AB660029592B /* AppDelegate.swift in Sources */,
+				2D6D61AD2AB1AF8D0029592B /* Message.swift in Sources */,
+				2D6D618A2AB1AB660029592B /* SceneDelegate.swift in Sources */,
+				2D6D61A32AB1AD170029592B /* LoginViewController.swift in Sources */,
+				2D6D61A72AB1AF0A0029592B /* Constants.swift in Sources */,
+				2D6D61A52AB1AD360029592B /* ChatViewController.swift in Sources */,
+				2D6D61A12AB1ACF60029592B /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D6D618D2AB1AB660029592B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6D618E2AB1AB660029592B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D6D61922AB1AB670029592B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6D61932AB1AB670029592B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D6D61962AB1AB670029592B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D6D61972AB1AB670029592B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D6D61992AB1AB670029592B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B68908422CE0002BAFFFF7 /* Pods-Sky Chat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C36A7D8FKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sky Chat/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.with.yehya.Sky-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2D6D619A2AB1AB670029592B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9115F8B8A05FF7AFE9D9A274 /* Pods-Sky Chat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C36A7D8FKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sky Chat/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.with.yehya.Sky-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6D617F2AB1AB650029592B /* Build configuration list for PBXProject "Sky Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6D61962AB1AB670029592B /* Debug */,
+				2D6D61972AB1AB670029592B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6D61982AB1AB670029592B /* Build configuration list for PBXNativeTarget "Sky Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6D61992AB1AB670029592B /* Debug */,
+				2D6D619A2AB1AB670029592B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D6D617C2AB1AB650029592B /* Project object */;
+}

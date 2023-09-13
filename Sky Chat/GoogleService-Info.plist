@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC8R0QTy0Dq4WMtkjduSICq66qhIT0CJEc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>241516276007</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>code.with.yehya.Sky-Chat</string>
+	<key>PROJECT_ID</key>
+	<string>sky-chat-a7971</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sky-chat-a7971.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:241516276007:ios:c9e5da644e6eb744076102</string>
+</dict>
+</plist>

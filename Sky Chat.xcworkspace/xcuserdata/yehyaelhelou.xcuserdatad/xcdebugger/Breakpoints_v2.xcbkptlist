@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "88437F46-6EB0-4128-9D1A-65140FE6E509"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAF9EDB4-33EF-4482-93E0-418C905971BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sky Chat/Views/MessageCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "MessageCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EAF9EDB4-33EF-4482-93E0-418C905971BA - 226fa74c144eec25"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sky_Chat.MessageCell.messageBubble.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Sky Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yehyaelhelou/Library/Mobile%20Documents/com~apple~CloudDocs/Sky%20Chat/Sky%20Chat/Views/MessageCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "EAF9EDB4-33EF-4482-93E0-418C905971BA - 84df4a0d42fb7131"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sky_Chat.MessageCell.messageBubble.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Sky Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yehyaelhelou/Library/Mobile%20Documents/com~apple~CloudDocs/Sky%20Chat/Sky%20Chat/Views/MessageCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "EAF9EDB4-33EF-4482-93E0-418C905971BA - 460f6e5e49c8c2e0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sky_Chat.MessageCell.messageBubble.modify : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Sky Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yehyaelhelou/Library/Mobile%20Documents/com~apple~CloudDocs/Sky%20Chat/Sky%20Chat/Views/MessageCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "EAF9EDB4-33EF-4482-93E0-418C905971BA - 619b7fe6dc3e4cf9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sky_Chat.MessageCell.messageBubble.modify : Swift.Optional&lt;__C.UIView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Sky Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yehyaelhelou/Library/Mobile%20Documents/com~apple~CloudDocs/Sky%20Chat/Sky%20Chat/Views/MessageCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "EAF9EDB4-33EF-4482-93E0-418C905971BA - ca4d2780be2f479"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sky_Chat.MessageCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Sky_Chat.MessageCell"
+                  moduleName = "Sky Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yehyaelhelou/Library/Mobile%20Documents/com~apple~CloudDocs/Sky%20Chat/Sky%20Chat/Views/MessageCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "147">
+               </Location>
+               <Location
+                  uuid = "EAF9EDB4-33EF-4482-93E0-418C905971BA - 3d83dfaf58df5485"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sky_Chat.MessageCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Sky_Chat.MessageCell&gt;"
+                  moduleName = "Sky Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yehyaelhelou/Library/Mobile%20Documents/com~apple~CloudDocs/Sky%20Chat/Sky%20Chat/Views/MessageCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
